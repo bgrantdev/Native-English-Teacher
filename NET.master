@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NET.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/NETStyle.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="Images/tab_icon.png" type="image/png" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div class="bodyDiv">
+        <div class="mainContentWrapper" >
+        <asp:LoginView runat="server">
+        <AnonymousTemplate>
+            <div id="loginWrapper">
+                <a href="Login.aspx">Login</a> | <a href="Register.aspx">Register</a>
+            </div>
+        </AnonymousTemplate>
+        <LoggedInTemplate>
+            <div id="loginWrapper">
+                <b>Welcome: </b> <asp:LoginName runat="server" />
+                <form runat="server"> Profile / <asp:LoginStatus Font-Underline="true" runat="server" /></form>
+            </div>
+        </LoggedInTemplate>
+        </asp:LoginView>
+        <br />
+        <div id="bannerMenuWrapper">
+            <div id="bannerWrapper">
+                <a href="Default.aspx"><img alt="Native English Teacher" src="Images/NativeEnglishBanner.png" id="Banner"/></a>
+            </div>
+
+            <br />
+            <div id="menuWrapper">
+                <table id="menuTable">
+                    <tr>
+                    <td class="leftBookend">
+                        <a href="Testimonials.aspx">Testimonials</a>
+                    </td>
+                    <td class="navTD">
+                        <a href="NativeTeachers.aspx">Native Teachers</a>
+                    </td> 
+                    <td class="navTD">
+                        <a href="NativeClasses.aspx">Native Classes</a>
+                    </td>
+                    <td class="navTD">
+                        <a href="ContactInfo.aspx">Contact</a>
+                    </td>
+                    <td class="navTD">
+                        <a href="Blog.aspx">Blog</a>
+                    </td>
+                    <td class="navTD">
+                        <a href="FreeLessons.aspx">Free Lessons</a>
+                    </td>
+                    <td class="rightBookend">
+                        <a href="FAQ.aspx">Purchases</a>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>  
+    
+    </div>
+
+   <br />
+   <br /> 
+
+    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <br />
+    <br />
+
+    <div id="footerWrapper">
+        <img class="socialThumb" alt="facebook" src="Images/facebook.jpg" />
+        <img class="socialThumb" alt="twitter" src="Images/twitter-button.jpg" />
+        <img class="socialThumb" alt="youtube" src="Images/Youtube-Button.jpg"/>
+    </div>
+
+
+</body>
+</html>

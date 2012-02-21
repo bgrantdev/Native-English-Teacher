@@ -1,0 +1,374 @@
+﻿/*---   Universal Page Elements   ---*/
+
+body
+{
+   /*background-color: #f1efef;*/	
+}
+
+.bodyDiv
+{
+	width: 100%;
+	display:block;
+}
+
+.mainContentWrapper
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto; 	
+}
+
+a
+{
+	color: #585858;
+	text-decoration: none;
+	font-family: Calibri;
+	font-weight: bold;	
+}
+
+a:active
+{
+	color: white;
+	text-decoration: none;
+	font-family:  Calibri;	
+}
+
+a:link
+{
+	color: white;
+	text-decoration: none;
+	font-family:  Calibri;
+}
+
+a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+h1
+{
+	 font-family: Verdana;
+	 font-size: 17px;
+	 background-color: #6C9A13;
+	 color: White;
+	 margin-top: 0px;
+	 border-bottom: 4px solid #585858;
+	 border-top-left-radius: 9px;
+	 border-top-right-radius: 9px;
+	 text-indent: 30px;
+	 text-align: left;
+}
+
+/*---   Master Page Elements  ---------*/
+
+#loginWrapper
+{
+	text-align: center;	
+	background-color: #6C9A13;
+	width: 13%;
+	height: 45px;
+	margin-left: auto;
+	margin-right: 0px;
+	border: 1px solid #585858;
+	border-radius: 10px;
+	color: White;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+#bannerMenuWrapper
+{
+	width: 100%;
+}
+
+#bannerWrapper
+{
+	height: 180px;
+	border: 1px solid #585858;
+	border-radius: 10px;
+    border-collapse:collapse;
+    background-color: White;
+    padding-top: 5px;
+    padding-left: 5px;
+    box-shadow: 5px 5px 10px #585858;
+}
+
+#bannerInnerWrapper
+{
+	height: 90%;
+	width: 98%;
+	border: 5px solid #585858;
+	border-radius: 10px;
+	padding-left: 10px;	
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	background-image: url(http://localhost:2820/NativeEnglishTeacher/Images/bannerBackground.png);
+		
+}
+
+#menuWrapper
+{
+	
+}
+
+#menuTable
+{
+	margin-left: auto;
+	margin-right: auto;	
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.navTD
+{
+	width: 14%;
+	text-align:center;
+	height: 50px;
+	background-image: url(http://localhost:2820/NativeEnglishTeacher/Images/metallic-gradient.png);
+	background-repeat: repeat-x;
+	border-right: 1px solid #505050;
+}
+
+.leftBookend
+{
+	width: 14%;
+	text-align:center;
+	height: 50px;
+	background-image: url(http://localhost:2820/NativeEnglishTeacher/Images/metallic-gradient.png);
+	background-repeat: repeat-x;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-right: 1px solid #505050;	
+}
+
+.rightBookend
+{
+	width: 14%;
+	text-align:center;
+	height: 50px;
+	background-image: url(http://localhost:2820/NativeEnglishTeacher/Images/metallic-gradient.png);
+	background-repeat: repeat-x;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;		
+}
+
+#footerWrapper
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	clear: both;
+	border: 1px solid #585858;
+	border-radius: 10px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-color: White;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+#networksList
+{
+	float: left;
+	list-style-type: none;
+}
+
+.socialThumb
+{
+	height: 5%;
+	width: 5%;	
+	vertical-align: top;
+}
+
+#spacer
+{
+	height: 100px;
+	width: 100px;
+	border: 5px solid green;	
+}
+
+/*-------- Main Page Elements -----------*/
+
+#introWrapper
+{
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 550px;
+	border: 1px solid #585858;
+	border-radius: 10px;
+	padding-top: 0px;
+	background-color: White;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+p.info
+{
+	font-family: Verdana;
+	font-size: 15px;
+	line-height: 25px;
+	text-indent: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.introImage
+{
+	float: left;
+	margin-right: 35px;	
+	margin-left: 20px;
+}
+
+#mainVideoWrapper
+{
+	margin-left: auto;
+	margin-right: auto;	
+	width: 650px;
+	border: 1px solid #585858;
+	border-radius: 10px;
+	background-color: White;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+#mainContent
+{
+	width: 50%;
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#recentLessonWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 560px;	
+}
+
+#recentLessons
+{
+	width: 22%;	
+	height: 1200px;
+	float: right;
+	border: 1px solid #585858;
+	border-radius: 10px;
+	text-align: center;
+	background-color: White;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+#testimonialsWrapper
+{
+	width: 22%;
+	height: 750px;
+	float: left;
+	border: 1px solid #585858;
+	border-radius: 10px;	
+	background-color: White;
+	text-align: center;
+	box-shadow: 5px 5px 10px #585858;
+}
+
+
+/*----------Purchase Page Elements------------*/
+
+#purchaseWrapper
+{
+	width: 75%;
+	border: 4px solid #585858;
+	border-radius: 10px;
+	background-color: White;
+	padding: 30px;		
+}
+
+.paypalLabel
+{
+	font-family: Verdana;	
+}
+
+/*---------Login Page Elements---------------*/
+
+#mainLoginWrapper
+{	
+	width: 50%;
+	border: 4px solid #585858;
+	border-radius: 10px;
+	background-color: White;
+	padding: 40px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loginTable
+{
+	width: 100%;		
+}
+
+#loginTableLoginCell
+{
+	width: 50%;
+	border-right: 2px dotted #585858;
+}
+
+#loginTableRegisterCell
+{
+	text-align: center;
+	font-family: Verdana;
+	width: 50%;
+}
+
+#registerP
+{
+	border: 4px solid #585858;
+	border-radius: 10px;
+	background-color: #6C9A13;
+	font-family: Verdana;
+	color: White;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*-------------Contact Info---------------*/
+
+
+
+
+
+
+
+
+
+
+/*------------Native Teachers Elements-----------*/
+
+
+
+
+
+
+
+
+
+
+/*-----------Native Classes Elements--------------*/
+
+
+
+
+
+
+
+
+/*----------Register Page Elements----------------*/
+
